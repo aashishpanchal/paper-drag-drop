@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    user-select: none
+  }
+
+  .paper-box {
+    @apply bg-paper-img bg-cover bg-center px-20 py-8 shadow-xl shadow-gray-500 absolute -rotate-[5deg];
+  }
+
+  .paper-p {
+    @apply font-bold opacity-75 select-none font-Zeyada;
+    color: rgb(0, 0, 100);
+  }
+}
