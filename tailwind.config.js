@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        img: "url('images/bg.jpeg')",
-        "paper-img": "url('images/paper.webp')",
+        img: "url('/bg.jpeg')",
+        "paper-img": "url('/paper.webp')",
       },
       fontFamily: {
         Zeyada: "'Zeyada', cursive",
